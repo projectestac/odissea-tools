@@ -1,0 +1,5 @@
+{
+  "domain": "odissea.xtec.cat",
+  "cookie": ">>> copieu aquí el valor de la capçalera 'cookie' d'una petició amb usuari autenticat <<<",
+  "userAgent": ">>> copieu aquí el valor de la capçalera 'user-agent' <<<"
+}

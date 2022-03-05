@@ -1,0 +1,24 @@
+{
+  "exportPDF": {
+    "protocol": "https",
+    "host": "odissea.xtec.cat",
+    "path": "report/stats/index.php",
+    "output": "informes",
+    "params": {
+      "mode": 1,
+      "report": 55,
+      "time": 32
+    },
+    "delay": 3000,
+    "courses": [
+      {
+        "code": "KUGE",
+        "id": "81374"
+      },
+      {
+        "code": "MKGE",
+        "id": "81375"
+      }
+    ]
+  }
+}
