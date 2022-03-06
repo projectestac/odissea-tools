@@ -76,7 +76,9 @@ data*.json
 
 # Documents generats
 /informes
+/llistats
 
 # Dades de la sessió i les tasques
 /session.json
-/tasks.json
+/informes.json
+/llistats.json

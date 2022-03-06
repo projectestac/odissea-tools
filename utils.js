@@ -1,13 +1,4 @@
 /**
- * Atura el procés durant un temps determinat
- * @param {int} ms - Temps d'espera (en mil·lisegons) 
- * @returns Promise
- */
-export function delayFor(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-/**
  * Parseja el text de la capçalera 'cookie' d'una petició HTTP
  * @param {string} cookieStr - Cadena de text a parsejar
  * @param {string} domain -  Domini per al qual s'ha enviat la cadena
