@@ -34,11 +34,13 @@ Els passos a seguir són:
 El valor de `cookie` s'ha d'anar actualitzant a cada sessió. El de `user-agent` només quan s'actualitza el navegador, o quan vulgueu fer servir un ordinador diferent.
 
 ### Preparació de les dades a recollir
-Actualment l'aplicació implementa només una tasca: descarregar els informes dels cursos indicats i guardar-los en format PDF. Aquesta tasca es configura al camp `exportPDF` del fitxer `tasks.json`.
+Actualment l'aplicació implementa només una tasca: descarregar els informes dels cursos indicats i guardar-los en format PDF. Aquesta tasca es configura al fitxer `informes.json`. Es proporciona un fitxer `tasks-example.json` amb una mostra del contingut que ha de tenir.
 
-Ompliu el fitxer `tasks.json` amb els valors de nom curt i identificador numèric de cada curs per al qual vulgueu descarregar l'informe.
+Els valors `mode`, `report` i `time` corresponen als camps de formulari a partir dels quals Moodle genera els informes.
 
-També podeu ajustar altres paràmetres. Els valors `mode`, `report` i `time` corresponen als camps de formulari a partir dels quals Moodle genera els informes.
+### Descàrrega dels informes
+Engegant el fitxer `informes.js` s'aniran descarregant tots els fitxers, que portaran el nom del curs i es guardaran al directori indicat (per defecte: `informes`).
 
-### Descàrrega de dades
-Engegant el fitxer `index.js` s'aniran descarregant tots els fitxers, que portaran el nom del curs i es guardaran al directori indicat (per defecte: `informes`). 
+### En procés...
+El fitxer `llistats.js` servirà per a descarregar fitxers CSV. Aquesta tasca està en procés de desenvolupament.
+

@@ -10,6 +10,6 @@
   "license": "EUPL-1.2",
   "dependencies": {
     "chalk": "^5.0.0",
-    "puppeteer": "^13.4.1"
+    "puppeteer": "^13.5.0"
   }
 }

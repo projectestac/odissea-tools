@@ -1,24 +1,22 @@
 {
-  "exportPDF": {
-    "protocol": "https",
-    "host": "odissea.xtec.cat",
-    "path": "report/stats/index.php",
-    "output": "informes",
-    "params": {
-      "mode": 1,
-      "report": 55,
-      "time": 32
+  "protocol": "https",
+  "host": "odissea.xtec.cat",
+  "path": "report/stats/index.php",
+  "output": "informes",
+  "params": {
+    "mode": 1,
+    "report": 55,
+    "time": 32
+  },
+  "delay": 3000,
+  "courses": [
+    {
+      "code": "KUGE_9001230529",
+      "id": "81374"
     },
-    "delay": 3000,
-    "courses": [
-      {
-        "code": "KUGE",
-        "id": "81374"
-      },
-      {
-        "code": "MKGE",
-        "id": "81375"
-      }
-    ]
-  }
+    {
+      "code": "MKGE_9001240529",
+      "id": "81375"
+    }
+  ]
 }
